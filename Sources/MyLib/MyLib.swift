@@ -1,3 +1,5 @@
+import c2sp
+
 public struct MyLib {
     public private(set) var text = "Hello, World!"
 
@@ -5,7 +7,7 @@ public struct MyLib {
     }
     
     public func getMomeryInfo() ->String{
-        return "usage 20MB"
+        return SysInfo.getMomory()
     }
     
     public func getCpuInfo() ->String{
