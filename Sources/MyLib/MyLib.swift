@@ -4,11 +4,11 @@ public struct MyLib {
     public init() {
     }
     
-    func getMomeryInfo() ->String{
+    public func getMomeryInfo() ->String{
         return "usage 20MB"
     }
     
-    func getCpuInfo() ->String{
+    public func getCpuInfo() ->String{
         return "20%"
     }
 }
